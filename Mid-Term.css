@@ -1,0 +1,118 @@
+@media screen and (max-width: 630px) {
+
+.container {
+width: 800px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h1 {
+font-size: 30px;
+font-family: Georgia;
+text-decoration: bold;
+width: 750px;
+position: left;
+}
+
+h2 {
+font-size: 25px;
+color: black;
+font-family: Georgia;
+max-width: 730px;
+position: left;
+text-decoration: none;
+}
+
+h3 {
+font-size: 25px;
+font-family: Georgia;
+color: lightgray;
+align-content: left;
+}
+
+p {
+font-size: 25px;
+font-family: Georgia;
+width: 730px;
+align-content: left,
+}
+
+head { /** animation for navigation header**/
+width: 80%;
+height: 100px;
+align-content: left;
+animation: box 4s 2s ease-in;
+}
+
+@keyframes box {
+0%{
+background-color: #304154;
+}
+
+100%{
+background-color: white;
+}
+}
+
+.img {
+width: 200px;
+height: 20px;
+align-content: center;
+}
+
+ul {
+list-style-type: none;
+text-decoration: none;
+margin: 0;
+padding: 0;
+width: 100%;
+position: fixed;
+overflow: hidden;
+}
+
+.search-container {
+float: right;
+height: 20px;
+width: 60px;
+font-size: 15px;
+margin: 10px auto;
+position: relative;
+}
+
+.enlarge { /** transition for image div **/
+width: 200px;
+height: 100%;
+}
+
+.enlarge:hover {
+width: 600px;
+height: 100%;
+transition: width 2s, height 2s, ease-in;
+-webkit-transition: width 2s, height 2s, ease-in;
+}
+
+.shift { /** transformation for pull quote div **/
+border-radius: 3px;
+position: absolute;
+color: white;
+width: 430px;
+align-content: center;
+}
+
+.shift:hover {
+color: #304154;
+text-decoration: bold;
+transform: scale(1.5);
+transition: all 1s 0.25s;
+-webkit-transition: all 1s 0.25s;
+}
+
+footer {
+color: #304154;
+height: 300px;
+width: 80%;
+}
+}
+
+@media screen and (min-width: 1024px;)
